@@ -4,65 +4,66 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Hemalatha M — Data & Business Analyst</title>
-  <meta name="description" content="Portfolio of Hemalatha M — Data Analyst | Time Series | ML" />
+  <meta name="description" content="Portfolio of Hemalatha M — Data Analyst | Business Analyst | ML Enthusiast" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="assets/favicon.png" />
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#home">Hemalatha M</a>
+      <a class="brand" href="#home">Hemalatha</a>
       <nav id="nav" class="nav">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Portfolio</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certificates">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
-      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <button id="nav-toggle" class="nav-toggle" aria-label="toggle menu">☰</button>
     </div>
   </header>
 
   <main>
     <!-- HERO -->
     <section id="home" class="hero">
+      <div class="hero-bg"></div>
       <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>Hi, I'm <span class="accent">Hemalatha M</span></h1>
-          <p class="lead"><span id="typed">Data Analyst</span></p>
-          <p class="hero-desc">I convert data into business value — time series forecasting, EDA and actionable dashboards to improve decision making.</p>
-          <div class="cta">
-            <a class="btn" href="#projects">View Projects</a>
-            <a class="btn ghost" href="assets/Hemalatha_resume_updated(2).pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+        <div class="hero-left">
+          <p class="eyebrow">I'm</p>
+          <h1 class="hero-name">Hemalatha <span class="hl">M</span></h1>
+          <p class="hero-role">Data Analyst • Business Analyst • Machine Learning Enthusiast</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#portfolio">View Projects</a>
+            <a class="btn ghost" href="assets/Hemalatha_resume_updated(2).pdf" target="_blank" rel="noopener">Download Resume</a>
           </div>
         </div>
-        <div class="hero-photo">
-          <img src="assets/IMG_20210804_130808.jpg" alt="Hemalatha photo" />
+        <div class="hero-right">
+          <img src="assets/IMG_20210804_130808.jpg" alt="Hemalatha photo" class="profile-photo" />
         </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section id="about" class="section bg-light">
+    <section id="about" class="section">
       <div class="container">
-        <h2>About</h2>
         <div class="about-grid">
-          <div class="about-text">
-            <p><strong>Summary</strong></p>
-            <p>I’m a Data & Business Analyst with experience in Python, SQL, Tableau, and Time Series Forecasting. I focus on transforming raw data into clear insights and building models that drive operational efficiency (greenhouse irrigation, ad performance, etc.).</p>
-            <p><strong>Current focus:</strong> Time series forecasting (AirQualityUCI temperature) and dashboard-driven decision support.</p>
+          <div class="about-intro">
+            <h2>About</h2>
+            <p class="lead">Data & Business Analyst focused on turning data into actionable business insights. Skilled in Python, SQL, Tableau, time-series and predictive modeling, and building lightweight data apps with Flask/Streamlit.</p>
+            <p><strong>Current focus:</strong> Data Analysis, Business Insights, and Decision Intelligence using Python, SQL and visualization tools.</p>
           </div>
           <div class="about-skills">
-            <p><strong>Skills</strong></p>
+            <h3>Key Skills</h3>
             <ul>
-              <li>Time Series: ARIMA, SARIMA, Prophet, Holt-Winters</li>
-              <li>ML: XGBoost, Regression</li>
-              <li>Data Tools: Python, Pandas, NumPy, SQL, Tableau, Excel</li>
-              <li>MLOps & Deployment: Flask, Streamlit, AWS (basic)</li>
+              <li>Python (Pandas, NumPy, Matplotlib)</li>
+              <li>SQL / MySQL / Excel</li>
+              <li>Time Series Forecasting (ARIMA, Prophet)</li>
+              <li>Machine Learning (XGBoost, Regression)</li>
+              <li>Visualization (Tableau, Matplotlib)</li>
+              <li>Deployment (Flask, Streamlit, GitHub)</li>
             </ul>
           </div>
         </div>
@@ -70,24 +71,24 @@
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="experience" class="section">
+    <section id="experience" class="section bg-light">
       <div class="container">
         <h2>Experience</h2>
         <div id="experience-timeline" class="timeline"></div>
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section bg-light">
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
       <div class="container">
         <h2>Portfolio</h2>
-        <p class="muted">Selected case studies — click View to see repository or details.</p>
+        <p class="muted">Selected case studies and projects — click <strong>View</strong> to open the repository.</p>
         <div id="projects-grid" class="cards-grid"></div>
       </div>
     </section>
 
     <!-- EDUCATION -->
-    <section id="education" class="section">
+    <section id="education" class="section bg-light">
       <div class="container">
         <h2>Education</h2>
         <div id="education-timeline" class="timeline"></div>
@@ -95,7 +96,7 @@
     </section>
 
     <!-- CERTIFICATIONS -->
-    <section id="certificates" class="section bg-light">
+    <section id="certifications" class="section">
       <div class="container">
         <h2>Certifications</h2>
         <div id="certs-grid" class="cards-grid"></div>
@@ -103,7 +104,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section">
+    <section id="contact" class="section bg-light">
       <div class="container">
         <h2>Contact</h2>
         <div class="contact-grid">
@@ -113,16 +114,15 @@
           </div>
           <div class="card small">
             <h4>GitHub</h4>
-            <p><a href="https://github.com/hemalatham236" target="_blank">github.com/hemalatham236</a></p>
+            <p><a href="https://github.com/hemalatham236" target="_blank" rel="noopener">github.com/hemalatham236</a></p>
           </div>
           <div class="card small">
             <h4>LinkedIn</h4>
-            <p><a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank">hemalatha-m</a></p>
+            <p><a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank" rel="noopener">hemalatha-m</a></p>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
@@ -131,7 +131,6 @@
     </div>
   </footer>
 
-  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
