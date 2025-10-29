@@ -1,136 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Hemalatha M — Data & Business Analyst</title>
-  <meta name="description" content="Portfolio of Hemalatha M — Data Analyst | Business Analyst | ML Enthusiast" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemalatha M | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="script.js"></script>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home">Hemalatha</a>
-      <nav id="nav" class="nav">
+  <header>
+    <div class="container">
+      <h1 class="logo">Hemalatha</h1>
+      <nav>
         <ul>
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-          <li><a href="#education" class="nav-link">Education</a></li>
-          <li><a href="#certifications" class="nav-link">Certifications</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button id="nav-toggle" class="nav-toggle" aria-label="toggle menu">☰</button>
     </div>
   </header>
 
-  <main>
-    <!-- HERO -->
-    <section id="home" class="hero">
-      <div class="hero-bg"></div>
-      <div class="container hero-inner">
-        <div class="hero-left">
-          <p class="eyebrow">I'm</p>
-          <h1 class="hero-name">Hemalatha <span class="hl">M</span></h1>
-          <p class="hero-role">Data Analyst • Business Analyst • Machine Learning Enthusiast</p>
-          <div class="hero-cta">
-            <a class="btn primary" href="#portfolio">View Projects</a>
-            <a class="btn ghost" href="assets/Hemalatha_resume_updated(2).pdf" target="_blank" rel="noopener">Download Resume</a>
-          </div>
-        </div>
-        <div class="hero-right">
-          <img src="assets/IMG_20210804_130808.jpg" alt="Hemalatha photo" class="profile-photo" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="about-grid">
-          <div class="about-intro">
-            <h2>About</h2>
-            <p class="lead">Data & Business Analyst focused on turning data into actionable business insights. Skilled in Python, SQL, Tableau, time-series and predictive modeling, and building lightweight data apps with Flask/Streamlit.</p>
-            <p><strong>Current focus:</strong> Data Analysis, Business Insights, and Decision Intelligence using Python, SQL and visualization tools.</p>
-          </div>
-          <div class="about-skills">
-            <h3>Key Skills</h3>
-            <ul>
-              <li>Python (Pandas, NumPy, Matplotlib)</li>
-              <li>SQL / MySQL / Excel</li>
-              <li>Time Series Forecasting (ARIMA, Prophet)</li>
-              <li>Machine Learning (XGBoost, Regression)</li>
-              <li>Visualization (Tableau, Matplotlib)</li>
-              <li>Deployment (Flask, Streamlit, GitHub)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section bg-light">
-      <div class="container">
-        <h2>Experience</h2>
-        <div id="experience-timeline" class="timeline"></div>
-      </div>
-    </section>
-
-    <!-- PORTFOLIO -->
-    <section id="portfolio" class="section">
-      <div class="container">
-        <h2>Portfolio</h2>
-        <p class="muted">Selected case studies and projects — click <strong>View</strong> to open the repository.</p>
-        <div id="projects-grid" class="cards-grid"></div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section bg-light">
-      <div class="container">
-        <h2>Education</h2>
-        <div id="education-timeline" class="timeline"></div>
-      </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section id="certifications" class="section">
-      <div class="container">
-        <h2>Certifications</h2>
-        <div id="certs-grid" class="cards-grid"></div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section bg-light">
-      <div class="container">
-        <h2>Contact</h2>
-        <div class="contact-grid">
-          <div class="card small">
-            <h4>Email</h4>
-            <p><a href="mailto:hemalatham236@gmail.com">hemalatham236@gmail.com</a></p>
-          </div>
-          <div class="card small">
-            <h4>GitHub</h4>
-            <p><a href="https://github.com/hemalatham236" target="_blank" rel="noopener">github.com/hemalatham236</a></p>
-          </div>
-          <div class="card small">
-            <h4>LinkedIn</h4>
-            <p><a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank" rel="noopener">hemalatha-m</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Hemalatha M — Built with HTML, CSS & JavaScript</p>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>I'm</h2>
+      <h1>Hemalatha M</h1>
+      <p>Data Analyst</p>
+      <a href="#portfolio" class="btn">View Projects</a>
+      <a href="assets/Hemalatha_resume_updated(2).pdf" target="_blank" class="btn secondary">Download Resume</a>
     </div>
-  </footer>
+    <div class="hero-img">
+      <img src="assets/profile.jpg" alt="Hemalatha M">
+    </div>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="about">
+    <div class="container about">
+      <h2>Learn About Me</h2>
+      <h3>Data Analyst</h3>
+      <p>
+        Passionate Data Analyst skilled in extracting meaningful insights from data to support business decisions.
+        Experienced in SQL, Python, Excel, Power BI, and Tableau. Focused on leveraging data to improve efficiency
+        and optimize resource utilization.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="timeline" id="experience-list"></div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="portfolio-grid" id="project-list"></div>
+  </section>
+
+  <section id="education">
+    <h2>Academic Background</h2>
+    <div class="timeline" id="education-list"></div>
+  </section>
+
+  <section id="certifications">
+    <h2>Achievements</h2>
+    <div class="timeline" id="certification-list"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:hemalatham236@gmail.com">hemalatham236@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank">View Profile</a></p>
+    <p>GitHub: <a href="https://github.com/hemalatham236" target="_blank">hemalatham236</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Hemalatha M | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
