@@ -3,84 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hemalatha M | Portfolio</title>
+  <title>Hemalatha M | Data Analyst</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="data.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <script defer src="script.js"></script>
 </head>
-
 <body>
+
+  <!-- Navbar -->
   <header>
-    <div class="container">
-      <h1 class="logo">Hemalatha</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navbar">
+      <div class="logo">Hemalatha</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+      </ul>
+    </nav>
   </header>
 
+  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-text">
-      <h2>I'm</h2>
+      <p class="intro">I'm</p>
       <h1>Hemalatha M</h1>
-      <p>Data Analyst</p>
-      <a href="#portfolio" class="btn">View Projects</a>
-      <a href="assets/Hemalatha_resume_updated(2).pdf" target="_blank" class="btn secondary">Download Resume</a>
+      <h3>Data Analyst</h3>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn">View Projects</a>
+        <a href="Hemalatha_resume_updated(2).pdf" target="_blank" class="btn-outline">Download Resume</a>
+      </div>
     </div>
     <div class="hero-img">
-      <img src="assets/profile.jpg" alt="Hemalatha M">
+      <img src="IMG_20210804_130808.jpg" alt="Hemalatha M">
     </div>
   </section>
 
-  <section id="about">
-    <div class="container about">
-      <h2>Learn About Me</h2>
-      <h3>Data Analyst</h3>
-      <p>
-        Passionate Data Analyst skilled in extracting meaningful insights from data to support business decisions.
-        Experienced in SQL, Python, Excel, Power BI, and Tableau. Focused on leveraging data to improve efficiency
-        and optimize resource utilization.
-      </p>
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Passionate Data Analyst skilled in extracting meaningful insights from data to support business decisions.
+      Experienced in SQL, Python, Excel, Power BI, and Tableau. 
+      Focused on leveraging data to improve efficiency and optimize resource utilization.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="exp-card">
+      <h3>Data Science Intern | C5i Technologies</h3>
+      <p>Worked on <b>Time Series Forecasting of Temperature Trends using AirQualityUCI</b> dataset to predict future patterns and support greenhouse management optimization.</p>
     </div>
   </section>
 
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div class="timeline" id="experience-list"></div>
-  </section>
-
-  <section id="portfolio">
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
     <h2>Projects</h2>
-    <div class="portfolio-grid" id="project-list"></div>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Netflix Data Analysis</h3>
+        <p>Explored trends in global streaming data and viewer preferences.</p>
+      </div>
+      <div class="project-card">
+        <h3>Walmart Sales Analysis</h3>
+        <p>Forecasted sales using time series modeling to aid inventory planning.</p>
+      </div>
+      <div class="project-card">
+        <h3>Yulu Bike Sharing EDA</h3>
+        <p>Analyzed ride data to uncover seasonal patterns and usage behavior.</p>
+      </div>
+      <div class="project-card">
+        <h3>Flask Web App Development</h3>
+        <p>Developed web apps integrating Python (Flask), HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="education">
-    <h2>Academic Background</h2>
-    <div class="timeline" id="education-list"></div>
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <p><b>Bachelor of Engineering (Computer Science)</b><br>Anna University</p>
   </section>
 
-  <section id="certifications">
-    <h2>Achievements</h2>
-    <div class="timeline" id="certification-list"></div>
+  <!-- Certifications -->
+  <section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li><a href="https://moonshot.scaler.com/s/sl/fcHG28k-XO" target="_blank">Scaler – Skill Mastery: SQL</a></li>
+      <li><a href="https://moonshot.scaler.com/s/sl/sEhH-mysYw" target="_blank">Python Libraries Certificate – Scaler</a></li>
+      <li><a href="https://moonshot.scaler.com/s/sl/beW6mrNfXR" target="_blank">EDA Fundamentals – Scaler</a></li>
+      <li><a href="https://awards.careerera.com/Q0FSMjAyNC1XUzEwMzk5Ny0xMTQwMDU5LzE" target="_blank">Data Science Certificate – Careerera</a></li>
+    </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:hemalatham236@gmail.com">hemalatham236@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank">View Profile</a></p>
-    <p>GitHub: <a href="https://github.com/hemalatham236" target="_blank">hemalatham236</a></p>
-  </section>
-
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Hemalatha M | All Rights Reserved</p>
+    <p>© 2025 Hemalatha M | <a href="https://www.linkedin.com/in/hemalatha-m-84b561233/" target="_blank">LinkedIn</a></p>
   </footer>
+
 </body>
 </html>
